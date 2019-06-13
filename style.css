@@ -1,11 +1,21 @@
-* {
-	font-family: 'Rajdhani', sans-serif;
-	background-color: black;
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Rajdhani', sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+  
 }
+
+.element{
+    color: #cc9900 !important;
+  
+}
+
 .heard-flex {
 	display: flex;
 	flex-direction: row;
-	/* flex-drap: no-wrap; */
 }
 
 .img-fb {
@@ -21,11 +31,7 @@
 	color: white;
 	border: 1px solid #438AFE;
 }
-*{
- margin: 0;
- padding: 0; 
- font-family: 'Rajdhani', sans-serif;
-}
+
 .main1{
     border: 1px solid peru;
 }
@@ -43,16 +49,12 @@
   padding: 10px;
   border: 10px;
   margin: 20px;
-    /* margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
+    
     display: flex;
 }
+
 .main2{
-/* width: 70%;
-padding: 10px;
-margin: 20px; */
+
 display: flex;
 flex-direction: row;
 border: 1px solid yellow;
@@ -75,27 +77,62 @@ h1{
 
 .footer-container{
     background-color:black;
-    color: white;
+    /* color: white; */
     width: auto;
     padding: 10px;
 
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-/* 
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row, wrap; */
+
 
     justify-content: center;
     align-items: center;
 }
 
-.element{
-    color: #cc9900;
-    /* background-color: aquamarine; */
-    /* margin: 5px; */
-    /* width: 200px; */
-    /* height: 100px; */
-    /* flex-basis:  */
-}
+.container {
+     max-width: 1005px;
+     margin: 0 auto;
+     padding: 2em 1em;
+    }
+  
+  header{
+    text-align: center;
+  }
+  
+  .logo img{
+    width: 30% ;
+  }
+  
+  input{
+    border-radius: 3px;
+    color: white;
+    border-color: white;
+    font-size: 1.0625em;
+    padding: 0.5625em 1.5em;
+    margin-right: 1em; /* remove this while use*/
+    margin-bottom: 1em; /* remove this while use*/
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  button {
+    border-radius: 3px;
+    font-weight: bold;
+    background: #244ca0;
+    
+    font-size: 1.0625em;
+    padding: 0.5625em 1.5em;
+    margin-right: 1em; /* remove this while use*/
+    margin-bottom: 1em; /* remove this while use*/
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+  }
+
+ 
