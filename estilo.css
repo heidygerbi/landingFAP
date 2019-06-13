@@ -1,0 +1,51 @@
+*{
+  font-family: 'Rajdhani', sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.container {
+   max-width: 1005px;
+   margin: 0 auto;
+   padding: 2em 1em;
+  }
+
+header{
+  text-align: center;
+}
+
+.logo img{
+  width: 30% ;
+}
+
+input{
+  border-radius: 3px;
+  color: white;
+  border-color: white;
+  font-size: 1.0625em;
+  padding: 0.5625em 1.5em;
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 1em; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+}
+
+button {
+  border-radius: 3px;
+  font-weight: bold;
+  background: #244ca0;
+  
+  font-size: 1.0625em;
+  padding: 0.5625em 1.5em;
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 1em; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+}
