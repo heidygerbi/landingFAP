@@ -64,9 +64,38 @@ border: 1px solid yellow;
     border: 1px solid red;
     position: relative;
 }
+
 .main3{
     border: 1px solid rgb(148, 63, 205);
 }
+
 h1{
     font-family: 'Rajdhani', sans-serif;
+}
+
+.footer-container{
+    background-color:black;
+    color: white;
+    width: auto;
+    padding: 10px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+/* 
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row, wrap; */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    color: #cc9900;
+    /* background-color: aquamarine; */
+    /* margin: 5px; */
+    /* width: 200px; */
+    /* height: 100px; */
+    /* flex-basis:  */
 }
