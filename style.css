@@ -1,3 +1,26 @@
+* {
+	font-family: 'Rajdhani', sans-serif;
+	background-color: black;
+}
+.heard-flex {
+	display: flex;
+	flex-direction: row;
+	/* flex-drap: no-wrap; */
+}
+
+.img-fb {
+	width: 10%;
+	height: 20%;
+}
+
+.align-right{
+	justify-content: flex-end;
+}
+
+.link-fb {
+	color: white;
+	border: 1px solid #438AFE;
+}
 *{
  margin: 0;
  padding: 0; 
