@@ -8,11 +8,6 @@
 	/* flex-drap: no-wrap; */
 }
 
-.img-logo {
-	/* width: 100%;
-	height: 100%; */
-}
-
 .img-fb {
 	width: 10%;
 	height: 20%;
@@ -25,4 +20,53 @@
 .link-fb {
 	color: white;
 	border: 1px solid #438AFE;
+}
+*{
+ margin: 0;
+ padding: 0; 
+ font-family: 'Rajdhani', sans-serif;
+}
+.main1{
+    border: 1px solid peru;
+}
+.title{
+    font-family: 'Rajdhani', sans-serif;
+}
+.main{
+    
+    display: flex;
+    justify-content:center;
+
+}
+.contendor{
+    width: 70%;
+  padding: 10px;
+  border: 10px;
+  margin: 20px;
+    /* margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: flex;
+}
+.main2{
+/* width: 70%;
+padding: 10px;
+margin: 20px; */
+display: flex;
+flex-direction: row;
+border: 1px solid yellow;
+}
+.card{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+.main3{
+    border: 1px solid rgb(148, 63, 205);
+}
+h1{
+    font-family: 'Rajdhani', sans-serif;
 }
