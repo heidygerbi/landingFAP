@@ -3,16 +3,16 @@
 	margin: 0;
 	padding: 0; 
 	font-family: 'Rajdhani', sans-serif;
-	 background: rgba(0, 0, 0, 0.383) ; 
+	 background: rgb(0, 0, 0) ; 
 	 
 }
 
 /* CSS header */
 /* PENDIENTE */
 header {
-	background-image: url("./asset/aviador-FAP.png");
+	/* background-image: url("./asset/aviador-FAP-fondo1.png"); */
 	background-attachment: fixed;
-	/* background-color: black; */
+	background-color: black;
 	background-size: cover;
 	/* background-blend-mode: lighten, normal; */
 	background-blend-mode: screen;
@@ -58,7 +58,7 @@ header {
 /* section 1 */
 /* PENDIENTE */
 .container-background {
-	background-image: url("./asset/aviador-FAP.png");
+	/* background-image: url("./asset/aviador-FAP.png"); */
 	background-attachment: fixed;
 	/* background-color: black; */
 	background-size: cover;
@@ -72,6 +72,13 @@ header {
 
 .une-line-column{
 	flex-direction: column;
+	
+}
+.title{
+	text-align: center;
+	background-color: #E8E8E8;
+	color: #1E499F;
+	padding: 0.8em 0;
 }
 
 h1, h2, h3{
@@ -79,23 +86,27 @@ h1, h2, h3{
 }
 .h2{
 	background-color: #1E499F;	
+
+
 	/* position: absolute; */
 
 }
-
+.primerpaso{
+text-align: center
+}
 .registrate{
 	letter-spacing: 2px;
-	padding: 0 1em;
-	margin-bottom: 0.5em; 
+	margin: 0 3em 0.5em 3em;
+	
 }
 
 .input{
-	border-radius: 2px;
+	
 	color: white;
-	border-color: white;
-	font-size: 1.0625em;
+	border: 1px solid white;
+	font-size: 1.06em;
 	padding: 0.325em 1em;
-	margin-bottom: 0.5em; /* remove this while use*/
+	margin-bottom: 0.8em; /* remove this while use*/
 		display: inline-block;
 		outline: none;
 		*zoom: 1;
@@ -104,7 +115,7 @@ h1, h2, h3{
 }
 
 .border-white{
-	border-radius: 3px;
+
 	color: white;
 	border: 1px solid white;
 	padding: 0.9625em 1.5em;
@@ -124,17 +135,55 @@ h1, h2, h3{
 	border: none;
 	letter-spacing: 1.5px;
 	font-weight: bold;
-	font-size: 1.0625em;
-	padding: 0.325em 1em;
-	margin-right: 1em; /* remove this while use*/
-	margin-bottom: 1em; /* remove this while use*/
+	font-size: 0.95em;
+	padding: 0.8em 1em;
+	
+	margin-bottom: 0.8em; /* remove this while use*/
 		display: inline-block;
 		outline: none;
 		*zoom: 1;
 	
 		text-decoration: none;
 }
-#form{
-	margin-top: 7em;
-	padding: 0 0em;
+.terminos{
+	font-size: 10px;
+	text-align: center;
+}
+#formcontainer{
+	margin: 7em 0 0 8em;
+display: block;
+text-align: center;
+
+
+}
+.form{
+	margin: 0 3em 0 3em;
+	padding: 1.5em 1.5em;
+}
+.img{
+	width: 70%;
+}
+.video{
+	margin: 1em 0 0 1.5em;
+	width:420px;
+	 height:255px ;
+	
+}
+.margin-top3{
+	margin-top: 3em;
+}
+.card-container{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	color: black;
+	justify-content: center ;
+	justify-content: space-evenly;
+	padding: 3em;
+}
+.card-footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+	border: none;
 }

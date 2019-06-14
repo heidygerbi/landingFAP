@@ -29,25 +29,26 @@
     <!--section 1-->
     <section class="container-background header-flex">
            
-        <div class="une-line-column">
-            <img src="./asset/FAP-oportunidad.png" alt="fighter">
+        <div class="une-line-column cols-6 center-elements margin-top3">
+            <img class="img" src="./asset/FAP-oportunidad.png" alt="fighter">
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lChgXHHtN6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <video src="https://www.youtube.com/embed/lChgXHHtN6I" controls = "no">
-                Tu navegador no implementa el elemento <code>video</code>
-              </video>            
-            <img src="./asset/FAP-se-el-mejor.png" alt="Sé el mejor">
+            <iframe class="video border-white" src="https://www.youtube.com/embed/PTc0KdRIhZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+            <img class="img" src="./asset/FAP-se-el-mejor.png" alt="Sé el mejor">
         </div>
-        <div id="form" class="center-elements une-line-column">
-                <h3 >Da el Primer Paso</h3>
+        <div id="formcontainer" class="center-elements  cols-6">
+                <h3 class="primerpaso" >Da el Primer Paso</h3>
                 <h2 class="h2 registrate">REGÍSTRATE AQUÍ</h2>
-            <form class="border-write column-flex  border-white">
+            <form class="border-write column-flex  border-white form">
 
                 <input class="input" type="text" name="frist-name" placeholder="Nombres completos">
                 <input class="input" type="text" name="last-name" placeholder="Apellidos">
                 <input class="input" type="text" name="email" placeholder="E-mail">
                 <input class="input" type="text" name="whatsapp" placeholder="Whatsapp">
                 <button class="button" type="button">QUIERO SER PARTE</button>
-                <p>Al dar click aquí aceptas todos los términos y condiciones<img src="./asset/padlock.png"/> información está 100% protegida</p>                                
+                <p class="terminos">Al dar click aquí aceptas todos los términos y condiciones </p>
+                  <p class="terminos"> <span class="ion-locked"> </span>  información está 100% protegida</p>
+                  <!-- <img src="./asset/padlock.png"/> -->
+                                                   
             </form>
         </div>
 
@@ -56,27 +57,27 @@
     <!--section 2-->
     
     <section>
-        <div class="contenedor">
-            <div class="main main1">
+        <div class="">
+            <div class="">
                 <h1 class="title"> DEJA UN LEGADO EN TU VIDA CON UNA CARRERA, QUE MARQUE LA DIFERENCIA</h1> 
             </div>
-            <div class="main main2">
-                <div class="card card1">
+            <div class="card-container  ">
+                <div class=" ">
                    <img src="asset/cadete-mujer-FAP.png" alt="">
-                <h1>SABIDURÍA</h1> 
+                <h1 class="card-footer">SABIDURÍA</h1> 
                 </div >
-                <div class="card card2">
+                <div class=" ">
                         <img src="asset/aviador-FAP.png" alt="">
-                <h1>VALOR</h1>
+                <h1 class="card-footer">VALOR</h1>
                 </div>
-                <div class="card card3">
+                <div class=" ">
                          <img src="asset/cadete-hombre-FAP.png" alt="">
-                <h1>DISCIPLINA</h1>
+                <h1 class="card-footer">DISCIPLINA</h1>
                 </div>
                 
             </div>
-            <div class="main main3">
-                <button class="">QUIERO SER PARTE</button>
+            <div class="card-container">
+                <button class="button">QUIERO SER PARTE</button>
             </div> 
         </div>
     </section>
