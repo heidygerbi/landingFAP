@@ -1,153 +1,140 @@
+/* CSS Generales */
 *{
-    margin: 0;
-    padding: 0; 
-    font-family: 'Rajdhani', sans-serif;
-    background: black;
-    /* color: white;
-		text-align: center; */ 
-		/* crear dos clases indv */
-  
+	margin: 0;
+	padding: 0; 
+	font-family: 'Rajdhani', sans-serif;
+	 background: rgba(0, 0, 0, 0.383) ; 
+	 
 }
 
-.element{
-    color: #cc9900 !important;
-  
+/* CSS header */
+/* PENDIENTE */
+header {
+	background-image: url("./asset/aviador-FAP.png");
+	background-attachment: fixed;
+	/* background-color: black; */
+	background-size: cover;
+	/* background-blend-mode: lighten, normal; */
+	background-blend-mode: screen;
 }
 
-.heard-flex {
+.header-flex {
 	display: flex;
 	flex-direction: row;
 }
 
-.une-line-column{
-	/* display: flex; */
+.column-flex {
+	display: flex;
 	flex-direction: column;
 }
-.img-fb {
-	/* width: 10%;
-	height: 20%; */
+
+.cols-3 {
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-
-.align-right{
-	justify-content: flex-end;
+.cols-6 {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .link-fb {
 	color: white;
-	border: 1px solid #438AFE;
+	/* border: 1px solid #438AFE; */
+	text-decoration: none;
 }
 
-.main1{
-    border: 1px solid peru;
-}
-/* .title{
-    font-family: 'Rajdhani', sans-serif;
-} */
-.main{
-    
-    display: flex;
-    justify-content:center;
-
-}
-.contendor{
-  width: 70%;
-  padding: 10px;
-  border: 10px;
-  margin: 20px;
-  display: flex;
-}
-
-.main2{
+.style-box {
+	border: 1px solid #0280FE;
 	display: flex;
 	flex-direction: row;
-	border: 1px solid yellow;
+	align-items: flex-end;
 }
 
-.card{
-    width: 50%;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid red;
-    position: relative;
+/* section 1 */
+/* PENDIENTE */
+.container-background {
+	background-image: url("./asset/aviador-FAP.png");
+	background-attachment: fixed;
+	/* background-color: black; */
+	background-size: cover;
+	/* background-blend-mode: lighten, normal; */
+	background-blend-mode: screen;
+	max-width: 1005px;
+	margin: 0 auto;
+	padding: 2em 1em;
+	justify-content: space-around;
 }
 
-.main3{
-    border: 1px solid rgb(148, 63, 205);
+.une-line-column{
+	flex-direction: column;
 }
 
-/* h1{
-    font-family: 'Rajdhani', sans-serif;
-} */
+h1, h2, h3{
+	color: white;
+}
+.h2{
+	background-color: #1E499F;	
+	/* position: absolute; */
 
-.footer-container{
-    background-color:black;
-    /* color: white; */
-    width: auto;
-    padding: 10px;
-
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.border-write {
-	border: 1px solid #FFFFFF;
-	padding: 5%;
+.registrate{
+	letter-spacing: 2px;
+	padding: 0 1em;
+	margin-bottom: 0.5em; 
 }
-.container {
-     max-width: 1005px;
-     margin: 0 auto;
-		 padding: 2em 1em;
-		 justify-content: space-around;
 
-    }
-  
-  header{
-    text-align: center;
-  }
-  
-  .logo img{
-    width: 30% ;
-  }
+.input{
+	border-radius: 2px;
+	color: white;
+	border-color: white;
+	font-size: 1.0625em;
+	padding: 0.325em 1em;
+	margin-bottom: 0.5em; /* remove this while use*/
+		display: inline-block;
+		outline: none;
+		*zoom: 1;
 	
-	form:nth-child{
-		width: 100%;
-	}
-	.center-icon {
-		align-items: flex-end;
-	}
-  input{
-    border-radius: 3px;
-    color: white;
-    border-color: white;
-    font-size: 1.0625em;
-    padding: 0.5625em 1.5em;
-    margin-right: 1em; /* remove this while use*/
-    margin-bottom: 1em; /* remove this while use*/
-      display: inline-block;
-      outline: none;
-      *zoom: 1;
-      text-align: center;
-      text-decoration: none;
-  }
-  
-  button {
-    border-radius: 3px;
-    font-weight: bold;
-    background: #244ca0;
-    
-    font-size: 1.0625em;
-    padding: 0.5625em 1.5em;
-    margin-right: 1em; /* remove this while use*/
-    margin-bottom: 1em; /* remove this while use*/
-      display: inline-block;
-      outline: none;
-      *zoom: 1;
-      text-align: center;
-      text-decoration: none;
-  }
+		text-decoration: none;
+}
 
- 
+.border-white{
+	border-radius: 3px;
+	color: white;
+	border: 1px solid white;
+	padding: 0.9625em 1.5em;
+}
+
+.center-elements{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button{
+	border-radius: 2px;
+	color: white;
+	background: #1E499F;
+	border: none;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 1.0625em;
+	padding: 0.325em 1em;
+	margin-right: 1em; /* remove this while use*/
+	margin-bottom: 1em; /* remove this while use*/
+		display: inline-block;
+		outline: none;
+		*zoom: 1;
+	
+		text-decoration: none;
+}
+#form{
+	margin-top: 7em;
+	padding: 0 0em;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Rajdhani', sans-serif;
+    background: black;
+    /* color: white;
+		text-align: center; */ 
+		/* crear dos clases indv */
+  
+}
+
+.element{
+    color: #cc9900 !important;
+  
+}
+
+
+
+
+.img-fb {
+	/* width: 10%;
+	height: 20%; */
+}
+
+
+.align-right{
+	justify-content: flex-end;
+}
+
+
+
+.main1{
+    border: 1px solid peru;
+}
+/* .title{
+    font-family: 'Rajdhani', sans-serif;
+} */
+.main{
+    
+    display: flex;
+    justify-content:center;
+
+}
+.contendor{
+  width: 70%;
+  padding: 10px;
+  border: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+.main2{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid yellow;
+}
+
+.card{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.main3{
+    border: 1px solid rgb(148, 63, 205);
+}
+
+/* h1{
+    font-family: 'Rajdhani', sans-serif;
+} */
+
+.footer-container{
+    background-color:black;
+    /* color: white; */
+    width: auto;
+    padding: 10px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-write {
+	border: 1px solid #FFFFFF;
+	padding: 5%;
+}
+/* .container {
+     max-width: 1005px;
+     margin: 0 auto;
+		 padding: 2em 1em;
+		 justify-content: space-around;
+
+    } */
+  
+  header{
+    text-align: center;
+  }
+  
+  .logo img{
+    width: 30% ;
+  }
+	
+	form:nth-child{
+		width: 100%;
+	}
+	.center-icon {
+		align-items: flex-end;
+	}
+  input{
+    border-radius: 3px;
+    color: white;
+    border-color: white;
+    font-size: 1.0625em;
+    padding: 0.5625em 1.5em;
+    margin-right: 1em; /* remove this while use*/
+    margin-bottom: 1em; /* remove this while use*/
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  button {
+    border-radius: 3px;
+    font-weight: bold;
+    background: #244ca0;
+    
+    font-size: 1.0625em;
+    padding: 0.5625em 1.5em;
+    margin-right: 1em; /* remove this while use*/
+    margin-bottom: 1em; /* remove this while use*/
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+  }
+
+ 
