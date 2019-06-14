@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0; 
 	font-family: 'Rajdhani', sans-serif;
-	 background: rgb(0, 0, 0) ; 
+	
 	 
 }
 
@@ -21,6 +21,7 @@ header {
 .header-flex {
 	display: flex;
 	flex-direction: row;
+	background: rgb(0, 0, 0) ; 
 }
 
 .column-flex {
@@ -46,17 +47,22 @@ header {
 	color: white;
 	/* border: 1px solid #438AFE; */
 	text-decoration: none;
+	align-content: center;
 }
 
 .style-box {
 	border: 1px solid #0280FE;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
+	padding: 0 0.9em -3em 0.9em;
+	border-radius: 3px
+	
+}
+.icon{
+	margin: 1em 0 0 0;
 }
 
 /* section 1 */
 /* PENDIENTE */
+
 .container-background {
 	/* background-image: url("./asset/aviador-FAP.png"); */
 	background-attachment: fixed;
@@ -69,7 +75,9 @@ header {
 	padding: 2em 1em;
 	justify-content: space-around;
 }
-
+.padding{
+	padding: 0 9em;
+}
 .une-line-column{
 	flex-direction: column;
 	
@@ -141,7 +149,7 @@ text-align: center
 	margin-bottom: 0.8em; /* remove this while use*/
 		display: inline-block;
 		outline: none;
-		*zoom: 1;
+	
 	
 		text-decoration: none;
 }
@@ -180,10 +188,57 @@ text-align: center;
 	justify-content: center ;
 	justify-content: space-evenly;
 	padding: 3em;
+	border-color: white;
 }
 .card-footer{
 	background-color: white;
 	color: black;
 	text-align: center;
-	border: none;
+	border-color: white;
+}
+
+.footer-container{
+	background-color: #05070F;
+	color: #A48850;
+	display: flex;
+	flex-direction: row;
+	justify-content: center ;
+	justify-content: space-evenly;
+	padding: 3em 0 0 0;
+	font-size: 17px
+}
+.white{
+	color:white;
+}
+
+.btngrande{
+	font-size: 20px;
+	padding: 0.9em 2em;
+}
+
+hr {
+  height: 2px;
+	width: 19%;
+	margin: 0 40%;
+  background-color: black;
+}
+
+
+@media (max-width: 700px)  {
+	.header-flex {
+		display: flex;
+		flex-direction: column;
+	
+	}
+
+	.card-container{
+		display: block;
+		text-align: center;
+		margin: 0 15em 0 0;
+		padding: 0
+	}
+	.card{
+		margin: 2em  0;
+	}
+	
 }
